@@ -1,0 +1,186 @@
+
+
+
+body {
+	background: url("../images/library1.jpg") ;
+	background-size: cover;
+	font-size: 16px;
+        background-size: 2000px 900px;
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	margin: 0;
+	
+	color: #666;
+}
+
+/* Typography */
+h1#title {
+	font-family: 'Geneva', serif;
+	font-weight: 200;
+	font-size: 3.2em;
+	color: white;
+	text-shadow: 0 0 10px rgba(0,0,0,0.8);
+	margin: 0 auto;
+	padding-top: 50px;
+        
+	
+	text-align: center;
+	position: relative;
+	top: 0px;
+}
+
+
+
+h1#title span span {
+	font-weight: 400;
+}
+
+h2 {
+	text-transform: uppercase;
+	color: white;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 1.4em;
+	line-height: 2.8em;
+}
+
+a {
+	text-decoration: none;
+	color: #666;
+}
+
+a:hover {
+	color: #aeaeae;
+}
+
+p.small {
+	font-size: 0.8em;
+	margin: 20px 0 0;
+}
+
+
+.container {
+	padding-top: 100px;
+     
+       
+        
+        
+}
+.decorate{
+    
+        font-family: 'Geneva', serif;
+	font-size: 1.2em;
+	color: white;
+       
+	text-shadow: 0 0 10px rgba(0,0,0,0.8);
+	margin: 0 auto;
+	padding-top: 5px;
+        padding-bottom: 5px;
+        background-image: url("../images/wood.jpg");
+	
+
+        }
+.decorate ing{
+            font-family: 'Geneva', serif;
+
+	font-size: 2.2em;
+	color: black;
+        
+	text-shadow: 0 0 10px rgba(0,0,0,0.8);
+	margin: 0 auto;
+	padding-top: 5px;
+        padding-bottom: 5px;
+	
+	
+            
+        }     
+        
+.login-box {
+         align-content: center;
+	background-color: #434C5D;
+	max-width: 340px;
+        color: whitesmoke;
+    
+	margin: 0 auto;
+	position: relative;
+	
+	
+	text-align: center;
+        
+}
+.login-box img{
+    
+    width:50px;
+    height:50px ;
+   align-content: center;
+  
+   
+}
+
+
+
+.login-box label {
+	
+	font-size: .8em;
+	color: #888;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	line-height: 2em;
+}
+
+.login-box input {
+ 
+	margin-bottom: 20px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	font-size: .9em;
+	color: #888;
+}
+
+.login-box input:focus {
+	outline: none;
+	border-color: #2b2522;
+	transition: 0.5s;
+	color: #2b2522;
+}
+
+.login-box button {
+	margin-top: 0px;
+	border: 0;
+	color: black;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.7em;
+	letter-spacing: 1px;
+	background-color: skyblue;
+	cursor:pointer;
+	outline: none;
+}
+
+
+.login-box button:hover {
+	opacity: 0.8;
+	transition: 0.5s;
+}
+
+.login-box button:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.selected {
+	color: #2b2522!important;
+	transition: 0.5s;
+}
+
+#logo {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 2s;
+}
+
+.login-box {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+}
